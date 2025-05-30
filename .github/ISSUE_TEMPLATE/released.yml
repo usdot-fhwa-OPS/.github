@@ -2,6 +2,16 @@ name: Released Bug
 description: Report a bug found in a release
 labels: ["anomaly", "bug", "released"]
 body:
+  - type: dropdown
+    id: STOLMember
+    attributes:
+      label: "**Employee Status** (Select one)"
+      description: "Are you a Saxton Lab/Leidos employee?"
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
   - type: textarea
     id: summary
     attributes:
@@ -16,9 +26,21 @@ body:
       label: Version
       description: What version are you running that you noticed this problem?
       options:
-        - 4.3.0 (Current)
-        - 4.2.0
-        - 3.11.0
+        - 7.8.1 (Current)
+        - 7.8.0
+        - 7.7.0
+        - 7.6.0
+        - 7.5.1 
+        - 7.5.0
+        - 7.4.0
+        - 7.3.1
+        - 7.3.0
+        - 7.2.3
+        - 7.2.2
+        - 7.2.1
+        - 7.2.0
+        - 7.1.0
+        - 7.0.0
     validations:
       required: true
   - type: textarea

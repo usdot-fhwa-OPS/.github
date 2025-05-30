@@ -5,13 +5,17 @@
 
 <!--- Describe your changes in detail -->
 
-## Related Issue
+## Related GitHub Issue
 
-<!--- This project only accepts pull requests related to open issues -->
+<!--- This project only accepts pull requests related to open GitHub issues or Jira Keys -->
 <!--- If suggesting a new feature or change, please discuss it in an issue first -->
 <!--- If fixing a bug, there should be an issue describing it with steps to reproduce -->
 <!--- Please DO NOT name partially fixed issues, instead open an issue specific to this fix -->
 <!--- Please link to the issue here: -->
+
+## Related Jira Key
+
+<!-- e.g. CAR-123 -->
 
 ## Motivation and Context
 
